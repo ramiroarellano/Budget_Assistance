@@ -8,5 +8,8 @@ let NetCashFlow= monthlyrevenue - monthlyexpenses;
 let CurrentBalance= initialcapital + NetCashFlow;
 let profitability=NetCashFlow > 0;
 
-console.log('Startup Name;Net Cash Flow;Current Balance;Profitability');
-console.log(`${startupName};${NetCashFlow};${CurrentBalance};${profitability}`);
+console.log('Startup Name;;', startupName);
+console.log('Net monthly cash flow;;', NetCashFlow);
+console.log('Current Balance;;', CurrentBalance);
+console.log('Is the startup profitable?;;', profitability ? 'TRUE' : 'FLASE');
+
